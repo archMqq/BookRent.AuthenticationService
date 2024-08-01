@@ -1,0 +1,6 @@
+@BookRent.AuthenticationService_HostAddress = http://localhost:5034
+
+GET {{BookRent.AuthenticationService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
