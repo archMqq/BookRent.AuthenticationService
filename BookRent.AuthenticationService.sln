@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRent.AuthenticationService", "BookRent.AuthenticationService\BookRent.AuthenticationService.csproj", "{044245AE-1079-4A5C-A3E9-4D8F6241B022}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookRent.AuthenticationService", "BookRent.AuthenticationService\BookRent.AuthenticationService.csproj", "{044245AE-1079-4A5C-A3E9-4D8F6241B022}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookRent.Models", "..\BookRent.Site\BookRent.Models\BookRent.Models.csproj", "{41B65374-B2AB-4BDD-B084-87CCDE96B687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRent.Authentication.Services", "BookRent.Authentication.Services\BookRent.Authentication.Services.csproj", "{DF49DFA4-0A6D-4BC1-8A7E-0CECA9C58FF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookRent.ServiceClasses", "..\Bookrent.CatalogService\BookRent.ServiceClasses\BookRent.ServiceClasses.csproj", "{C19DBAC1-5F51-4250-9AE8-0309227A7020}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRent.Authentication.Security.Password", "BookRent.Authentication.Security.Password\BookRent.Authentication.Security.Password.csproj", "{A7710BD9-36B7-49E8-86F7-B7840C09661E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{044245AE-1079-4A5C-A3E9-4D8F6241B022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{044245AE-1079-4A5C-A3E9-4D8F6241B022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{044245AE-1079-4A5C-A3E9-4D8F6241B022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B65374-B2AB-4BDD-B084-87CCDE96B687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B65374-B2AB-4BDD-B084-87CCDE96B687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B65374-B2AB-4BDD-B084-87CCDE96B687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B65374-B2AB-4BDD-B084-87CCDE96B687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF49DFA4-0A6D-4BC1-8A7E-0CECA9C58FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF49DFA4-0A6D-4BC1-8A7E-0CECA9C58FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF49DFA4-0A6D-4BC1-8A7E-0CECA9C58FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF49DFA4-0A6D-4BC1-8A7E-0CECA9C58FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19DBAC1-5F51-4250-9AE8-0309227A7020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19DBAC1-5F51-4250-9AE8-0309227A7020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19DBAC1-5F51-4250-9AE8-0309227A7020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19DBAC1-5F51-4250-9AE8-0309227A7020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7710BD9-36B7-49E8-86F7-B7840C09661E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7710BD9-36B7-49E8-86F7-B7840C09661E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7710BD9-36B7-49E8-86F7-B7840C09661E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7710BD9-36B7-49E8-86F7-B7840C09661E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

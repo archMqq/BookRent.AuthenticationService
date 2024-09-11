@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Bookrent.CatalogService\BookRent.ServiceClasses\BookRent.ServiceClasses.csproj" />
+    <ProjectReference Include="..\..\BookRent.Site\BookRent.Models\BookRent.Models.csproj" />
+    <ProjectReference Include="..\BookRent.Authentication.Security.Password\BookRent.Authentication.Security.Password.csproj" />
+  </ItemGroup>
+
+</Project>
