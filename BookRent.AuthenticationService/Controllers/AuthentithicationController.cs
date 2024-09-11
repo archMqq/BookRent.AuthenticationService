@@ -2,7 +2,6 @@
 
 namespace BookRent.AuthenticationService.Controllers
 {
-    private readonly 
 
     [ApiController]
     [Route("/auth")]
